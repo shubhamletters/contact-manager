@@ -1,0 +1,61 @@
+*{
+  background-color: bisque;
+}
+#cards:hover{
+  background-color: blueviolet;
+}
+.App {
+ background-color: #a78e8e;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+
+/* Style the counter cards */
+#one{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #a78e8e;
+  position: fixed;
+  right: 250px;
+  width: 700px;
+  height: 320px;
+  border: 3px solid green;
+  top: 200px;
+
+
+} 
+#two{
+  
+  left: 700px;
+  margin-top: 40px;
+  position: fixed;
+  border: 5px double black;
+  color: blueviolet;
+
+}
+.btn1{
+
+  margin-right: 10px;
+  background-color: beige;
+  
+  }
+  
+  .btn2{
+  
+  margin-left: 10px;
+  background-color: aquamarine;
+  
+  }
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
